@@ -1,0 +1,17 @@
+html {
+  height: 500px;
+}
+
+body {
+  background: $color-background-main;
+  height: 500px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}

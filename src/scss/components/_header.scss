@@ -1,0 +1,30 @@
+.header {
+  background-color: $color-background-header;
+  padding: 5px 15px;
+  display: flex; 
+  justify-content: space-between;
+}
+
+.header > .left {
+  flex: 1;
+  display: flex;
+}
+
+.header > .center {
+  display: flex;
+  flex: 10;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: $color-brand-header;
+  align-self: center;
+}
+
+.header > .right {
+  display: flex;
+  flex: 1;
+}
+
+.header > .right .search {
+  padding-right: 10px;
+}

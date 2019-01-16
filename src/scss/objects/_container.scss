@@ -1,0 +1,63 @@
+.container {
+  margin: 15px 15px;
+}
+
+.container > .container-header {
+  background: $color-background-container-header;
+  border: 1px solid $color-border-container;
+  border-bottom: none;
+  border-radius: 5px 5px 0px 0px;
+  height: 38px;
+  padding: 5px 10px 0;
+}
+
+.container > .container-header .title h2{
+  display: inline-block;
+  line-height: 1.5;
+  font-size: .875em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  border-bottom: 3px solid $color-title-border-container-header;
+  color: $color-title-container-header;
+  text-transform: uppercase;
+}
+
+.container > .body {
+  background-color: $color-background-container-body;
+  padding: 10px;
+  border: 1px solid $color-border-container;
+  border-top: none;
+  border-radius: 0px 0px 5px 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.pet-box {
+  // display: flex;
+  margin-bottom: 10px;
+}
+
+.pet-box:last-child {
+  margin-bottom: 0;
+}
+
+.pet-box .modelo {
+  max-width: 100%;
+  /* display: inline-block; */
+}
+
+.pet-box .pet-name {
+  width: auto;
+  height: 30px;
+  background-color: $color-background-petbox;
+}
+
+.pet-box .pet-name h3 {
+    color: $color-title-petbox;
+    font-size: 0.8125em;
+    display: block;
+    padding-top: 10px;
+    letter-spacing: .05em;
+    text-align: center;
+}
