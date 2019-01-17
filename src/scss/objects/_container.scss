@@ -30,12 +30,29 @@
   border-radius: 0px 0px 5px 5px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
 }
 
 .pet-box {
-  // display: flex;
   margin-bottom: 10px;
+  display: flex;
+}
+
+@media (min-width: 700px) {
+  .container > .body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+  .pet-box {
+    margin-bottom: 10px;
+    flex-basis: 49.2%;
+    display: flex;
+  }
+
+  .pet-box a {
+    max-width: 100%;
+  }
 }
 
 .pet-box:last-child {
@@ -44,7 +61,6 @@
 
 .pet-box .modelo {
   max-width: 100%;
-  /* display: inline-block; */
 }
 
 .pet-box .pet-name {
@@ -54,10 +70,10 @@
 }
 
 .pet-box .pet-name h3 {
-    color: $color-title-petbox;
-    font-size: 0.8125em;
-    display: block;
-    padding-top: 10px;
-    letter-spacing: .05em;
-    text-align: center;
+  color: $color-title-petbox;
+  font-size: 0.8125em;
+  display: block;
+  line-height: 30px;
+  letter-spacing: .05em;
+  text-align: center;
 }

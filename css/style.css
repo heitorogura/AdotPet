@@ -116,18 +116,29 @@ a {
   border-top: none;
   border-radius: 0px 0px 5px 5px;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around; }
+  flex-wrap: wrap; }
 
 .pet-box {
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  display: flex; }
+
+@media (min-width: 700px) {
+  .container > .body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+  .pet-box {
+    margin-bottom: 10px;
+    flex-basis: 49.2%;
+    display: flex; }
+  .pet-box a {
+    max-width: 100%; } }
 
 .pet-box:last-child {
   margin-bottom: 0; }
 
 .pet-box .modelo {
-  max-width: 100%;
-  /* display: inline-block; */ }
+  max-width: 100%; }
 
 .pet-box .pet-name {
   width: auto;
@@ -138,6 +149,6 @@ a {
   color: #ff9a89;
   font-size: 0.8125em;
   display: block;
-  padding-top: 10px;
+  line-height: 30px;
   letter-spacing: .05em;
   text-align: center; }
