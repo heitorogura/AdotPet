@@ -52,7 +52,7 @@ html {
   height: 500px; }
 
 body {
-  background: #040268;
+  background: #eeecec;
   height: 500px;
   font-family: 'Open Sans', sans-serif; }
 
@@ -63,10 +63,11 @@ a {
   text-decoration: none; }
 
 .header {
-  background-color: #17158D;
+  background-color: white;
   padding: 5px 15px;
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  box-shadow: 1px 1px 3px #d4d4d4; }
 
 .header > .left {
   flex: 1;
@@ -78,7 +79,7 @@ a {
   justify-content: center;
   font-size: 32px;
   font-weight: 800;
-  color: #D6DA00;
+  color: #0084cf;
   align-self: center; }
 
 .header > .right {
@@ -92,8 +93,8 @@ a {
   margin: 15px 15px; }
 
 .container > .container-header {
-  background: #3D2B88;
-  border: 1px solid #D6C4A4;
+  background: #f1f0f0;
+  border: 1px solid #d4d4d4;
   border-bottom: none;
   border-radius: 5px 5px 0px 0px;
   height: 38px;
@@ -105,14 +106,14 @@ a {
   font-size: .875em;
   font-weight: 700;
   letter-spacing: 0.1em;
-  border-bottom: 3px solid #fa8424;
-  color: #F6D5B3;
+  border-bottom: 3px solid #D7057E;
+  color: #0084cf;
   text-transform: uppercase; }
 
 .container > .body {
-  background-color: #000350;
+  background-color: white;
   padding: 10px;
-  border: 1px solid #D6C4A4;
+  border: 1px solid #d4d4d4;
   border-top: none;
   border-radius: 0px 0px 5px 5px;
   display: flex;
@@ -122,6 +123,10 @@ a {
   margin-bottom: 10px;
   display: flex; }
 
+.pet-box img {
+  width: 658px;
+  display: block; }
+
 @media (min-width: 700px) {
   .container > .body {
     display: flex;
@@ -129,10 +134,10 @@ a {
     justify-content: space-between; }
   .pet-box {
     margin-bottom: 10px;
-    flex-basis: 49.2%;
+    flex-basis: 49.6%;
     display: flex; }
-  .pet-box a {
-    max-width: 100%; } }
+  .pet-box img {
+    display: block; } }
 
 .pet-box:last-child {
   margin-bottom: 0; }
@@ -143,10 +148,10 @@ a {
 .pet-box .pet-name {
   width: auto;
   height: 30px;
-  background-color: #554479; }
+  background-color: #0084cf; }
 
 .pet-box .pet-name h3 {
-  color: #ff9a89;
+  color: #ffffff;
   font-size: 0.8125em;
   display: block;
   line-height: 30px;

@@ -37,6 +37,12 @@
   display: flex;
 }
 
+.pet-box img {
+  width: 658px;
+  display: block;
+}
+
+
 @media (min-width: 700px) {
   .container > .body {
   display: flex;
@@ -46,13 +52,13 @@
 
   .pet-box {
     margin-bottom: 10px;
-    flex-basis: 49.2%;
+    flex-basis: 49.6%;
     display: flex;
   }
 
-  .pet-box a {
-    max-width: 100%;
-  }
+  .pet-box img {
+     display: block;
+   }
 }
 
 .pet-box:last-child {
