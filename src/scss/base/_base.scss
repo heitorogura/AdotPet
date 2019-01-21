@@ -4,8 +4,9 @@ html {
 
 body {
   background: $color-background-main;
-  height: 500px;
+  // height: 500px;
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 * {

@@ -12,10 +12,11 @@
 
 <body>
 
-  <!-- Header Start -->
-  <header class="header">
+  <!-- Open - Header Menu -->
+  <header class="header-menu">
     <div class="left">
-      <img class="menuhamburguer" src="img/menu.svg" alt="menuhamburguer">
+      <img class="menuhamburguer icon -active" src="img/menu.svg" alt="menuhamburguer">
+      <img class="close icon" src="img/close.svg" alt="close">
     </div>
     <div class="center">
       ADOTPET
@@ -25,41 +26,63 @@
       <img class="signin" src="img/signin.svg" alt="entrar">
     </div>
   </header>
-  <!-- Header End -->
-
-  <section class="container">
-    <header class="container-header">
-      <div class="title">
-        <h2>Destaques</h2>
+  <!-- Clode - Header End -->
+  <!-- Open - Side Menu -->
+  <div class="side-menu">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+  </div>
+  <!-- Close - Side Menu -->
+  <div id="main">
+    <section class="container">
+      <header class="container-header">
+        <div class="title">
+          <h2>Destaques</h2>
+        </div>
+      </header>
+      <div class="body">
+        <article class="pet-box">
+          <a href="#">
+            <img class="modelo" src="img/dog1.jpg" alt="">
+            <footer class="pet-name">
+              <h3>Bolota - Vila Velha</h3>
+            </footer>
+          </a>
+        </article>
+    
+        <article class="pet-box">
+          <a href="#">
+            <img class="modelo" src="img/dog2.jpg" alt="">
+            <footer class="pet-name">
+              <h3>Lola - Vitória</h3>
+            </footer>
+          </a>
+        </article>
+        <article class="pet-box">
+          <a href="#">
+            <img class="modelo" src="img/dog3.jpg" alt="">
+            <footer class="pet-name">
+              <h3>Bolota - Vila Velha</h3>
+            </footer>
+          </a>
+        </article>
+    
+        <article class="pet-box">
+          <a href="#">
+            <img class="modelo" src="img/dog1.jpg" alt="">
+            <footer class="pet-name">
+              <h3>Lola - Vitória</h3>
+            </footer>
+          </a>
+    
+        </article>
       </div>
-    </header>
-    <div class="body">
-      <article class="pet-box">
-        <a href="#">
-          <img class="modelo" src="img/dog1.jpg" alt="">
-          <footer class="pet-name">
-            <h3>Bolota - Vila Velha</h3>
-          </footer>
-        </a>
-      </article>
-      <article class="pet-box">
-        <a href="#">
-          <img class="modelo" src="img/dog1.jpg" alt="">
-          <footer class="pet-name">
-            <h3>Bolota - Vila Velha</h3>
-          </footer>
-        </a>
-      </article>
-      <article class="pet-box">
-        <a href="#">
-          <img class="modelo" src="img/dog1.jpg" alt="">
-          <footer class="pet-name">
-            <h3>Bolota - Vila Velha</h3>
-          </footer>
-        </a>
-      </article>
-    </div>
-  </section>
+    </section>
+  </div>
+ 
+  
+  <script src="js/menuhamburguer.js"></script>
 </body>
-
 </html>
