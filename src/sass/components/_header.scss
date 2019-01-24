@@ -1,0 +1,46 @@
+#main {
+  overflow: hidden;
+  width: 100%;
+}
+
+.header-menu {
+  background-color: $color-background-header;
+  padding: 5px 15px;
+  display: flex; 
+  justify-content: space-between;
+  box-shadow: $box-shadow;
+  overflow: hidden;
+}
+
+.header-menu > .left {
+  flex: 1;
+  display: flex;
+}
+
+.header-menu > .left .icon {
+  display: none;
+}
+
+.header-menu > .left .icon.-active {
+  display: block;
+  cursor: pointer;
+}
+
+.header-menu > .center {
+  display: flex;
+  flex: 10;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 800;
+  color: $color-brand-header;
+  align-self: center;
+}
+
+.header-menu > .right {
+  display: flex;
+  flex: 1;
+}
+
+.header-menu > .right .search {
+  padding-right: 10px;
+}

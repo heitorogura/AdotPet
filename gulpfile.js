@@ -10,7 +10,7 @@ var settings = {
 	styles: true,
 	svgs: true,
 	copy: true,
-	reload: true
+	reload: false
 };
 
 /**
@@ -41,7 +41,7 @@ var paths = {
 };
 
 /**
- * Template for banner to add to file headers	
+ * Template for banner to add to file headers
  */
 
 var banner = {

@@ -1,0 +1,24 @@
+.side-menu {
+  display: none;
+  height: 100vh;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.side-menu.-active {
+  display: block;
+}
+
+.side-menu a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
